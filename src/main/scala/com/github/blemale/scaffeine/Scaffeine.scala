@@ -5,9 +5,9 @@ import java.{ lang, util }
 
 import com.github.benmanes.caffeine.cache._
 import com.github.benmanes.caffeine.cache.stats.StatsCounter
+import com.github.blemale.scaffeine.FunctionConverters._
 
 import scala.collection.JavaConverters._
-import scala.compat.java8.FunctionConverters._
 import scala.compat.java8.FutureConverters._
 import scala.concurrent.duration.Duration
 import scala.concurrent.{ ExecutionContext, Future }

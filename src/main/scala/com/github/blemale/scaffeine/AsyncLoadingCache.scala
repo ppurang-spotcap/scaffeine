@@ -3,9 +3,9 @@ package com.github.blemale.scaffeine
 import java.util.concurrent.Executor
 
 import com.github.benmanes.caffeine.cache.{ AsyncLoadingCache => CaffeineAsyncLoadingCache }
+import com.github.blemale.scaffeine.FunctionConverters._
 
 import scala.collection.JavaConverters._
-import scala.compat.java8.FunctionConverters._
 import scala.compat.java8.FutureConverters._
 import scala.concurrent.Future
 
