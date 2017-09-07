@@ -4,7 +4,7 @@ name := "scaffeine"
 
 organization := "com.github.blemale"
 
-licenses += "Apache 2" -> url("http://www.apache.org/licenses/LICENSE-2.0.txt")
+licenses += ("Apache-2.0", url("http://www.apache.org/licenses/LICENSE-2.0"))
 
 description := "Thin Scala wrapper for Caffeine."
 
@@ -12,7 +12,7 @@ startYear := Some(2016)
 
 homepage := Some(url("https://github.com/blemale/scaffeine"))
 
-scalaVersion := "2.11.8"
+scalaVersion := "2.12.3"
 
 libraryDependencies ++=
   Seq(
